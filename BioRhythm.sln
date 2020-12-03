@@ -14,11 +14,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ssepan.Application", "..\Ssepan.Application\Ssepan.Application.csproj", "{C69040CF-5ACD-4F55-8540-49FB7C2A7AA2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9378E2E4-CA5C-4FFF-B44D-4AABB6603507}"
-	ProjectSection(SolutionItems) = preProject
-		BioRhythm.vsmdi = BioRhythm.vsmdi
-		Local.testsettings = Local.testsettings
-		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioRhythmLibrary", "BioRhythmLibrary\BioRhythmLibrary.csproj", "{59903E2C-31DA-468D-BAE9-837D8257F4BD}"
 EndProject

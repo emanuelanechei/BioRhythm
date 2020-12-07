@@ -30,7 +30,7 @@ using Ssepan.Application.WinForms;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("3.15.*")]
+[assembly: AssemblyVersion("3.16")]
 
 #region " Helper class to get information for the About form. "
 /// <summary>

@@ -13,6 +13,11 @@ Usage notes:
 
 Enhancements:
 
+3.16:
+~update to Framework 4.8
+~convert to SDK style .csproj format
+~updated Ssepan.* to 2.7
+
 3.15: (RELEASED)
 ~Handler in Program.cs was not wired up in forms or console; added 'PropertyChanged += PropertyChangedEventHandlerDelegate;' to Main.
 ~No handler wired up to Settings in forms or console. Renamed 'PropertyChangedEventHandlerDelegate' to 'ModelPropertyChangedEventHandlerDelegate'. Wired up latter in 'InitViewModel' after model handler in view. Currently handling 'Dirty' property.

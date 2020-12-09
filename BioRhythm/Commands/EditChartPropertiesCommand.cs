@@ -19,7 +19,7 @@ namespace BioRhythm
 
         public Boolean CanExecute(object parameter)
         {
-            return (true);
+            return (false);//(true);
         }
 
         public event EventHandler CanExecuteChanged;
@@ -29,7 +29,7 @@ namespace BioRhythm
             //call viewmodel here
             if (CanExecute(null))
             {
-                _BioRhythmViewModel.ChartProperties();
+                //_BioRhythmViewModel.EditChartProperties();
             }
         }
     }

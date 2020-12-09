@@ -29,7 +29,7 @@ namespace BioRhythm
             //call viewmodel here
             if (CanExecute(null))
             {
-                _BioRhythmViewModel.CopyToClipboard();
+                _BioRhythmViewModel.EditCopy();
             }
         }
     }

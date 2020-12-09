@@ -17,6 +17,7 @@ Enhancements:
 ~update to Framework 4.8
 ~convert to SDK style .csproj format
 ~updated Ssepan.* to 2.7
+~address resource namespace issue(s) in Ssepan.Application.[WinForms|Dialogs] AboutDialog, PropertyDialog by removing Ssepan.Application.Winforms namespace, and moving dialogs up to project root.
 
 3.15: (RELEASED)
 ~Handler in Program.cs was not wired up in forms or console; added 'PropertyChanged += PropertyChangedEventHandlerDelegate;' to Main.

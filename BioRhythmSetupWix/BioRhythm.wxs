@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="BioRhythm" Language="1033" Version="3.16.0.0" Manufacturer="Stephen J Sepan" UpgradeCode="5203cf3a-db54-4e1e-81bb-5322e7e10993">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="BioRhythm" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="BioRhythm" />
+			</Directory>
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="BioRhythm"/>
+      </Directory>
+    </Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			 <Component Id="BioRhythm.exe"> 
+				<File Source="$(var.BioRhythm.TargetPath)" />
+			 </Component>
+      <Component Id="BioRhythm.exe.config">
+        <File Source="$(var.BioRhythm.TargetDir)\$(var.BioRhythm.TargetFileName).config" />
+      </Component>
+      <Component Id="BioRhythm.pdb">
+        <File Source="$(var.BioRhythm.TargetDir)\$(var.BioRhythm.TargetName).pdb" />
+      </Component>
+      <Component Id="License.txt">
+        <File Source="$(var.BioRhythm.ProjectDir)\License.txt" />
+      </Component>
+      <Component Id="BioRhythmLibrary.dll">
+        <File Source="$(var.BioRhythmLibrary.TargetPath)" />
+      </Component>
+      <Component Id="BioRhythmLibrary.pdb">
+        <File Source="$(var.BioRhythmLibrary.TargetDir)\$(var.BioRhythmLibrary.TargetName).pdb" />
+      </Component>
+      <Component Id="readme.txt">
+        <File Source="$(var.BioRhythmLibrary.ProjectDir)\readme.txt" />
+      </Component>
+      <Component Id="Ssepan.Application.dll">
+        <File Source="$(var.Ssepan.Application.TargetPath)" />
+      </Component>
+      <Component Id="Ssepan.Application.pdb">
+        <File Source="$(var.Ssepan.Application.TargetDir)\$(var.Ssepan.Application.TargetName).pdb" />
+      </Component>
+      <Component Id="Ssepan.Graphics.dll">
+        <File Source="$(var.Ssepan.Graphics.TargetPath)" />
+      </Component>
+      <Component Id="Ssepan.Graphics.pdb">
+        <File Source="$(var.Ssepan.Graphics.TargetDir)\$(var.Ssepan.Graphics.TargetName).pdb" />
+      </Component>
+      <Component Id="Ssepan.Io.dll">
+        <File Source="$(var.Ssepan.Io.TargetPath)" />
+      </Component>
+      <Component Id="Ssepan.Io.pdb">
+        <File Source="$(var.Ssepan.Io.TargetDir)\$(var.Ssepan.Io.TargetName).pdb" />
+      </Component>
+      <Component Id="Ssepan.Patterns.dll">
+        <File Source="$(var.Ssepan.Patterns.TargetPath)" />
+      </Component>
+      <Component Id="Ssepan.Patterns.pdb">
+        <File Source="$(var.Ssepan.Patterns.TargetDir)\$(var.Ssepan.Patterns.TargetName).pdb" />
+      </Component>
+      <Component Id="Ssepan.Utility.dll">
+        <File Source="$(var.Ssepan.Utility.TargetPath)" />
+      </Component>
+      <Component Id="Ssepan.Utility.pdb">
+        <File Source="$(var.Ssepan.Utility.TargetDir)\$(var.Ssepan.Utility.TargetName).pdb" />
+      </Component>
+    </ComponentGroup>
+	</Fragment>
+</Wix>

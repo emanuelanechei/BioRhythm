@@ -8,7 +8,9 @@
 
 		<Feature Id="ProductFeature" Title="BioRhythm" Level="1">
 			<ComponentGroupRef Id="ProductComponents" />
-		</Feature>
+      <ComponentRef Id="ApplicationShortcut" />
+    </Feature>
+    
 	</Product>
 
 	<Fragment>
@@ -22,7 +24,21 @@
     </Directory>
 	</Fragment>
 
-	<Fragment>
+  <Fragment>
+      <DirectoryRef Id="ApplicationProgramsFolder">
+      <Component Id="ApplicationShortcut" Guid="6d17cb73-2d7f-4b43-bd27-575dbda3f46f">
+        <Shortcut Id="ApplicationStartMenuShortcut"
+                  Name="BioRhythm"
+                  Description="BioRhythm"
+                  Target="[#BioRhythm.exe]"
+                  WorkingDirectory="INSTALLFOLDER"/>
+        <RemoveFolder Id="CleanUpShortCut" Directory="ApplicationProgramsFolder" On="uninstall"/>
+        <RegistryValue Root="HKCU" Key="Software\StephenJSepan\BioRhythm" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </DirectoryRef>
+  </Fragment>
+
+  <Fragment>
 		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
 			 <Component Id="BioRhythm.exe"> 
 				<File Source="$(var.BioRhythm.TargetPath)" />

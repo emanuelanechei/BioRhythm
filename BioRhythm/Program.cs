@@ -78,6 +78,7 @@ namespace BioRhythm
         }
         #endregion Properties
 
+        #region Methods
         /// <summary>
         /// The main entry point for the application. 
         /// </summary>
@@ -97,8 +98,6 @@ namespace BioRhythm
 
                 //load, parse, run switches
                 DoSwitches(args);
-
-                InitModelAndSettings();
 
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
@@ -131,20 +130,6 @@ namespace BioRhythm
                     //new CommandLineSwitch("H", "H invokes the Help command.", false, ConsoleApplication.Help)//may already be loaded
                 }
             );
-        }
-
-        static void InitModelAndSettings()
-        {
-            //create Settings before first use by Model
-            if (SettingsController<Settings>.Settings == null)
-            {
-                SettingsController<Settings>.New();
-            }
-            //Model properties rely on Settings, so don't call Refresh before this is run.
-            if (ModelController<BioRhythmModel>.Model == null)
-            {
-                ModelController<BioRhythmModel>.New();
-            }
         }
         #endregion FormAppBase
 
@@ -189,5 +174,6 @@ namespace BioRhythm
             }
         }
         #endregion CommandLineSwitch Action Delegates
+        #endregion Methods
     }
 }

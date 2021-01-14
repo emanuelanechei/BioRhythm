@@ -46,7 +46,7 @@ namespace BioRhythm
                 //ConsoleApplication.defaultOutputDelegate = ConsoleApplication.messageBoxWrapperOutputDelegate;
 
                 //subscribe to notifications
-                this.PropertyChanged += ModelPropertyChangedEventHandlerDelegate;
+                this.PropertyChanged += PropertyChangedEventHandlerDelegate;
 
                 InitViewModel();
 
@@ -82,11 +82,17 @@ namespace BioRhythm
 
         #region PropertyChangedEventHandlerDelegate
         /// <summary>
-        /// Note: property changes update UI manually.
+        /// Note: model property changes update UI manually.
+        /// Note: handle settings property changes manually.
+        /// Note: because settings properties are a subset of the model 
+        ///  (every settings property should be in the model, 
+        ///  but not every model property is persisted to settings)
+        ///  it is decided that for now the settigns handler will 
+        ///  invoke the model handler as well.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        protected void ModelPropertyChangedEventHandlerDelegate
+        protected void PropertyChangedEventHandlerDelegate
         (
             Object sender,
             PropertyChangedEventArgs e
@@ -94,6 +100,7 @@ namespace BioRhythm
         {
             try
             {
+                #region Model
                 if (e.PropertyName == "IsChanged")
                 {
                     //ConsoleApplication.defaultOutputDelegate(String.Format("{0}", e.PropertyName));
@@ -233,35 +240,19 @@ namespace BioRhythm
                 {
                     ModelController<BioRhythmModel>.Model.Refresh();
                 }
-            }
-            catch (Exception ex)
-            {
-                //ErrorMessage = ex.Message;
-                Log.Write(ex, MethodBase.GetCurrentMethod(), EventLogEntryType.Error);
-            }
-        }
+                #endregion Model
 
-        /// <summary>
-        /// Note: handle settings property changes manually.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        protected void SettingsPropertyChangedEventHandlerDelegate
-        (
-            Object sender,
-            PropertyChangedEventArgs e
-        )
-        {
-            try
-            {
+                #region Settings
                 if (e.PropertyName == "Dirty")
                 {
                     //apply settings that don't have databindings
                     ViewModel.DirtyIconIsVisible = (SettingsController<Settings>.Settings.Dirty);
                 }
+                #endregion Settings
             }
             catch (Exception ex)
             {
+                //ErrorMessage = ex.Message;
                 Log.Write(ex, MethodBase.GetCurrentMethod(), EventLogEntryType.Error);
             }
         }
@@ -444,10 +435,13 @@ namespace BioRhythm
         {
             try
             {
-                //subscribe view to model notifications
-                ModelController<BioRhythmModel>.Model.PropertyChanged += ModelPropertyChangedEventHandlerDelegate;
-                //subscribe view to settings notifications
-                SettingsController<Settings>.DefaultHandler = SettingsPropertyChangedEventHandlerDelegate;
+                //tell controller how model should notify view about non-persisted properties AND including model properties that may be part of settings
+                ModelController<BioRhythmModel>.DefaultHandler = PropertyChangedEventHandlerDelegate;
+
+                //tell controller how settings should notify view about persisted properties
+                SettingsController<Settings>.DefaultHandler = PropertyChangedEventHandlerDelegate;
+
+                InitModelAndSettings();
 
                 FileDialogInfo settingsFileDialogInfo =
                     new FileDialogInfo
@@ -455,9 +449,9 @@ namespace BioRhythm
                         SettingsController<Settings>.FILE_NEW,
                         null,
                         null,
-                        /*SettingsController<Settings>.Settings.FileTypeExtension*/Settings.FileTypeExtension,
-                        /*SettingsController<Settings>.Settings.FileTypeDescription*/Settings.FileTypeDescription,
-                        /*SettingsController<Settings>.Settings.FileTypeName*/Settings.FileTypeName,
+                        Settings.FileTypeExtension,
+                        Settings.FileTypeDescription,
+                        Settings.FileTypeName,
                         new String[] 
                     { 
                         "XML files (*.xml)|*.xml", 
@@ -477,7 +471,7 @@ namespace BioRhythm
                     ViewName,
                     new BioRhythmViewModel
                     (
-                        this.ModelPropertyChangedEventHandlerDelegate,
+                        this.PropertyChangedEventHandlerDelegate,
                         new Dictionary<String, Bitmap>() 
                     { 
                         { "Above", Resources.Above }, 
@@ -541,6 +535,20 @@ namespace BioRhythm
             }
         }
 
+        protected void InitModelAndSettings()
+        {
+            //create Settings before first use by Model
+            if (SettingsController<Settings>.Settings == null)
+            {
+                SettingsController<Settings>.New();
+            }
+            //Model properties rely on Settings, so don't call Refresh before this is run.
+            if (ModelController<BioRhythmModel>.Model == null)
+            {
+                ModelController<BioRhythmModel>.New();
+            }
+        }
+
         protected void DisposeSettings()
         {
             //save user and application settings 
@@ -571,7 +579,7 @@ namespace BioRhythm
             }
 
             //unsubscribe from model notifications
-            ModelController<BioRhythmModel>.Model.PropertyChanged -= ModelPropertyChangedEventHandlerDelegate;
+            ModelController<BioRhythmModel>.Model.PropertyChanged -= PropertyChangedEventHandlerDelegate;
         }
 
         protected void _Run()

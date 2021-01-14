@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <EmotionPlotColor_>Green</EmotionPlotColor_>
-  <IntellectPlotColor_>Blue</IntellectPlotColor_>
-  <PhysiquePlotColor_>Red</PhysiquePlotColor_>
-  <AveragePlotColor_>Magenta</AveragePlotColor_>
-  <Size>
-    <Width>646</Width>
-    <Height>518</Height>
-  </Size>
-  <Location>
-    <X>73</X>
-    <Y>42</Y>
-  </Location>
-  <StartDate>2001-01-01T00:00:00</StartDate>
+  <OriginDate>2021-01-14T00:00:00-05:00</OriginDate>
   <BirthDate>2001-01-01T00:00:00</BirthDate>
   <UserName>test</UserName>
-  <Version>3</Version>
 </Settings>

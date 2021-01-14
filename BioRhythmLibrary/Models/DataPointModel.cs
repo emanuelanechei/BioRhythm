@@ -10,7 +10,7 @@ namespace BioRhythmLibrary
 {
     //[TypeConverter(typeof(ExpandableObjectConverter))]
     public class DataPointModel :
-        ModelBase
+        ModelComponentBase
     {
         public DataPointModel()
         { 

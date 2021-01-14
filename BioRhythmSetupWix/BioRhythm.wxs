@@ -10,7 +10,6 @@
 			<ComponentGroupRef Id="ProductComponents" />
       <ComponentRef Id="ApplicationShortcut" />
     </Feature>
-    
 	</Product>
 
 	<Fragment>

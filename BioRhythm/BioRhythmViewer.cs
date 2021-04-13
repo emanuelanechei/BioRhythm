@@ -10,6 +10,7 @@ using System.IO;
 using System.Reflection;
 using System.Windows.Forms;
 using Ssepan.Application;
+using Ssepan.Application.MVC;
 using Ssepan.Io;
 using Ssepan.Patterns;
 using Ssepan.Utility;

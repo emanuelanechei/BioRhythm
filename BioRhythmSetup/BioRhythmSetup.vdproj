@@ -15,61 +15,25 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_127835069EF11D849F0EA628209667F1"
+        "MsmKey" = "8:_04B6979997B33135B8810551066578E2"
         "OwnerKey" = "8:_A9ADF3BD33574F6CA173B86B52E77DB7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_160109D779E4281BDD9E4D1F40838716"
-        "OwnerKey" = "8:_127835069EF11D849F0EA628209667F1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_160109D779E4281BDD9E4D1F40838716"
+        "MsmKey" = "8:_49BBB65660DF4E6B044385B4CC35B439"
         "OwnerKey" = "8:_A9ADF3BD33574F6CA173B86B52E77DB7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_2AF8A1781D04649C931BF1D5BC034AF6"
-        "OwnerKey" = "8:_92B1971C1EDC1DB89BB8218B7E1E79AD"
+        "MsmKey" = "8:_49BBB65660DF4E6B044385B4CC35B439"
+        "OwnerKey" = "8:_F0D284A057BAE71A275DCAF3E6166FE8"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_2AF8A1781D04649C931BF1D5BC034AF6"
-        "OwnerKey" = "8:_A9ADF3BD33574F6CA173B86B52E77DB7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2AF8A1781D04649C931BF1D5BC034AF6"
-        "OwnerKey" = "8:_E89D9E4B0BB69951BD06D58FD566AC05"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2AF8A1781D04649C931BF1D5BC034AF6"
-        "OwnerKey" = "8:_127835069EF11D849F0EA628209667F1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2AF8A1781D04649C931BF1D5BC034AF6"
-        "OwnerKey" = "8:_160109D779E4281BDD9E4D1F40838716"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_92B1971C1EDC1DB89BB8218B7E1E79AD"
-        "OwnerKey" = "8:_160109D779E4281BDD9E4D1F40838716"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_92B1971C1EDC1DB89BB8218B7E1E79AD"
+        "MsmKey" = "8:_A6F022FD52D036F2B7D9132AB2B689B4"
         "OwnerKey" = "8:_A9ADF3BD33574F6CA173B86B52E77DB7"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -81,56 +45,80 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_CB2EEC2C4391EAB2E25DE20F1E7F1B22"
+        "MsmKey" = "8:_AB5EE059E86FD78A1980BC64E3DAEC14"
+        "OwnerKey" = "8:_04B6979997B33135B8810551066578E2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AB5EE059E86FD78A1980BC64E3DAEC14"
+        "OwnerKey" = "8:_A6F022FD52D036F2B7D9132AB2B689B4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AB5EE059E86FD78A1980BC64E3DAEC14"
+        "OwnerKey" = "8:_49BBB65660DF4E6B044385B4CC35B439"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AB5EE059E86FD78A1980BC64E3DAEC14"
         "OwnerKey" = "8:_A9ADF3BD33574F6CA173B86B52E77DB7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E89D9E4B0BB69951BD06D58FD566AC05"
+        "MsmKey" = "8:_AB5EE059E86FD78A1980BC64E3DAEC14"
+        "OwnerKey" = "8:_F0D284A057BAE71A275DCAF3E6166FE8"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F0D284A057BAE71A275DCAF3E6166FE8"
+        "OwnerKey" = "8:_A9ADF3BD33574F6CA173B86B52E77DB7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F0D284A057BAE71A275DCAF3E6166FE8"
+        "OwnerKey" = "8:_A6F022FD52D036F2B7D9132AB2B689B4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_A9ADF3BD33574F6CA173B86B52E77DB7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A9ADF3BD33574F6CA173B86B52E77DB7"
+        "OwnerKey" = "8:_A6F022FD52D036F2B7D9132AB2B689B4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E89D9E4B0BB69951BD06D58FD566AC05"
+        "OwnerKey" = "8:_04B6979997B33135B8810551066578E2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CB2EEC2C4391EAB2E25DE20F1E7F1B22"
+        "OwnerKey" = "8:_49BBB65660DF4E6B044385B4CC35B439"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_127835069EF11D849F0EA628209667F1"
+        "OwnerKey" = "8:_F0D284A057BAE71A275DCAF3E6166FE8"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_160109D779E4281BDD9E4D1F40838716"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_92B1971C1EDC1DB89BB8218B7E1E79AD"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2AF8A1781D04649C931BF1D5BC034AF6"
+        "OwnerKey" = "8:_AB5EE059E86FD78A1980BC64E3DAEC14"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -243,20 +231,20 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_127835069EF11D849F0EA628209667F1"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_04B6979997B33135B8810551066578E2"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:BioRhythmLibrary, Version=3.14.0.21186, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Ssepan.Patterns, Version=2.8.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_127835069EF11D849F0EA628209667F1"
+                    "_04B6979997B33135B8810551066578E2"
                     {
-                    "Name" = "8:BioRhythmLibrary.dll"
+                    "Name" = "8:Ssepan.Patterns.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:BioRhythmLibrary.dll"
+            "SourcePath" = "8:Ssepan.Patterns.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_F37BFD01C1BE43818E56858450AB84F1"
@@ -274,76 +262,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_160109D779E4281BDD9E4D1F40838716"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_49BBB65660DF4E6B044385B4CC35B439"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Ssepan.Application, Version=2.6.0.21186, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Ssepan.Io, Version=2.8.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_160109D779E4281BDD9E4D1F40838716"
-                    {
-                    "Name" = "8:Ssepan.Application.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Ssepan.Application.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_F37BFD01C1BE43818E56858450AB84F1"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2AF8A1781D04649C931BF1D5BC034AF6"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Ssepan.Utility, Version=2.6.0.21185, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_2AF8A1781D04649C931BF1D5BC034AF6"
-                    {
-                    "Name" = "8:Ssepan.Utility.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Ssepan.Utility.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_F37BFD01C1BE43818E56858450AB84F1"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_92B1971C1EDC1DB89BB8218B7E1E79AD"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Ssepan.Io, Version=2.6.0.21185, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_92B1971C1EDC1DB89BB8218B7E1E79AD"
+                    "_49BBB65660DF4E6B044385B4CC35B439"
                     {
                     "Name" = "8:Ssepan.Io.dll"
                     "Attributes" = "3:512"
@@ -367,20 +293,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CB2EEC2C4391EAB2E25DE20F1E7F1B22"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A6F022FD52D036F2B7D9132AB2B689B4"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:NPlot, Version=0.9.10.0, Culture=neutral, PublicKeyToken=4eda430eb4395eb1, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:BioRhythmLibrary, Version=3.16.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_CB2EEC2C4391EAB2E25DE20F1E7F1B22"
+                    "_A6F022FD52D036F2B7D9132AB2B689B4"
                     {
-                    "Name" = "8:NPlot.dll"
+                    "Name" = "8:BioRhythmLibrary.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:NPlot.dll"
+            "SourcePath" = "8:BioRhythmLibrary.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_F37BFD01C1BE43818E56858450AB84F1"
@@ -398,20 +324,51 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E89D9E4B0BB69951BD06D58FD566AC05"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AB5EE059E86FD78A1980BC64E3DAEC14"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Ssepan.Patterns, Version=2.6.0.21185, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Ssepan.Utility, Version=2.8.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_E89D9E4B0BB69951BD06D58FD566AC05"
+                    "_AB5EE059E86FD78A1980BC64E3DAEC14"
                     {
-                    "Name" = "8:Ssepan.Patterns.dll"
+                    "Name" = "8:Ssepan.Utility.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Ssepan.Patterns.dll"
+            "SourcePath" = "8:Ssepan.Utility.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F37BFD01C1BE43818E56858450AB84F1"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F0D284A057BAE71A275DCAF3E6166FE8"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Ssepan.Application, Version=2.8.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_F0D284A057BAE71A275DCAF3E6166FE8"
+                    {
+                    "Name" = "8:Ssepan.Application.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Ssepan.Application.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_F37BFD01C1BE43818E56858450AB84F1"
@@ -520,7 +477,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:BioRhythm"
         "ProductCode" = "8:{584E4784-5439-4CF4-B510-2F4BC6E20F58}"
-        "PackageCode" = "8:{8D3AB5AC-FAF8-42EB-B9B6-1ABD2C47C7DA}"
+        "PackageCode" = "8:{8E671FA0-B0CD-4AB5-9287-EB0A53A70BDD}"
         "UpgradeCode" = "8:{D6FDA0D4-B523-444D-AA6D-66FC36F4C677}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

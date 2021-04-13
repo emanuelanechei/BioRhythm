@@ -10,6 +10,7 @@ using System.Reflection;
 //using System.Windows.Media;
 using System.Xml.Serialization;
 using Ssepan.Application;
+using Ssepan.Application.MVC;
 using Ssepan.Utility;
 
 namespace BioRhythmLibrary

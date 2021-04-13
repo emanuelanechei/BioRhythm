@@ -10,6 +10,8 @@ using System.Text;
 using System.Windows.Forms;
 using Ssepan.Utility;
 using Ssepan.Application;
+using Ssepan.Application.MVC;
+using Ssepan.Application.WinForms;
 using Ssepan.Io;
 using BioRhythmLibrary;
 
